@@ -15,6 +15,9 @@ module.exports = {
       '6xl': '4rem',
     },
     extend: {
+      backgroundImage: {
+        'bg-pixel-pattern': "url('./assets/images/pixelstyle_overlay.png)",
+      },
       colors: {
         gray: {
           100: '#f7fafc',
