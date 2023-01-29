@@ -2,6 +2,11 @@
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    fontFamily: {
+      serif: ['Red Hat Display', 'serif'],
+      // serif: ["Yellowtail", "serif"],
+      sans: ['Concert One', 'sans'],
+    },
     fontSize: {
       xs: '0.75rem',
       sm: '0.875rem',
